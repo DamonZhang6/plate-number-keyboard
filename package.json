@@ -1,0 +1,49 @@
+{
+  "name": "plate-number-keyboard",
+  "version": "1.0.0",
+  "private": false,
+  "description": "基于Vue的移动端车牌输入组件",
+  "keywords": [
+    "车牌输入组件",
+    "keyboard",
+    "vue"
+  ],
+  "author": "Damon",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name PlateNumberKeyboard --dest lib packages/index.js"
+  },
+  "main": "lib/PlateNumberKeyboard.common.js",
+  "homepage": "https://github.com/DamonZhang6/plate-number-keyboard#README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamonZhang6/plate-number-keyboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DamonZhang6/plate-number-keyboard/issues"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "postcss-pxtorem": "5.1.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
